@@ -230,7 +230,7 @@ $(window).on('load', function() {
         'wav': 'audio',
       }
 
-      var mediaExt = c['Media Link'] ? c['Media Link'].split('.').pop().toLowerCase() : '';
+      var mediaExt = c['Media Link'] ? c['Media Link'].split('.').pop().toLowerCase() : 'jpg';
       var mediaType = mediaTypes[mediaExt];
 
       if (mediaType) {
